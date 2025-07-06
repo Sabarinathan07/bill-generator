@@ -18,15 +18,15 @@ interface BillItem {
 	amount: number;
 }
 
-interface BillData {
-	billNo: number;
-	date: string;
-	time: string;
-	items: BillItem[];
-	subTotal: number;
-	grossAmount: number;
-	kotNo: string;
-}
+// interface BillData {
+// 	billNo: number;
+// 	date: string;
+// 	time: string;
+// 	items: BillItem[];
+// 	subTotal: number;
+// 	grossAmount: number;
+// 	kotNo: string;
+// }
 
 interface FormData {
 	restaurantName: string;
